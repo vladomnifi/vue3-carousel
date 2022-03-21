@@ -1,6 +1,6 @@
 {
   "name": "@orderbee/vue3-carousel",
-  "version": "1.0.0",
+  "version": "1.0.0-fixed",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw & npm run docs:dev",
@@ -19,7 +19,7 @@
   "main": "dist/carousel.js",
   "module": "dist/carousel.es.js",
   "style": "dist/carousel.css",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@typescript-eslint/parser": "^5.10.0",
