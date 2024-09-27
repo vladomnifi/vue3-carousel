@@ -1,6 +1,6 @@
 {
-  "name": "vue3-carousel",
-  "version": "0.1.37",
+  "name": "@orderbee/vue3-carousel",
+  "version": "1.0.0-fixed",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw & npm run docs:dev",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ismail9k/vue3-carousel.git"
+    "url": "https://github.com/Omnifi/vue3-carousel.git"
   },
   "main": "dist/carousel.js",
   "module": "dist/carousel.es.js",
   "style": "dist/carousel.css",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@typescript-eslint/parser": "^5.10.0",
